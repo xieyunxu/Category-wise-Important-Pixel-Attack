@@ -1,8 +1,8 @@
 # Category-wise-Important-PIxel-Attack
 # Getting Started
 This document provides tutorials of Catergory-wise Attack (CWA) framework.
-![](Category-wise%20Important%20Pixel%20Attack/fig1.png)
-![](Category-wise%20Important%20Pixel%20Attack/fig2.png)
+![](fig1.png)
+![](fig2.png)
 Following the procedures below:
 1) The experiments of this work is based on the target anchor-free object detector CenterNet, more details can be found at [Object as Points](http://arxiv.org/abs/1904.07850)
 2) The basic installation procedures of CenterNet, all about is here [CenterNet Installation Procedures](Category-wise%20Important%20Pixel%20Attack/INSTALL.md) 
