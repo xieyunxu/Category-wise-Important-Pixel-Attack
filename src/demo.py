@@ -23,8 +23,6 @@ def demo(opt):
                                 # '3: use matplot to display'  # useful when lunching training with ipython notebook
                                 # '4: save all visualizations to disk')
   Detector = detector_factory[opt.task]
-  # self.parser.add_argument('task', default='ctdet',help='ctdet | ddd | multi_pose | exdet')
-  # detector_factory = {'exdet': ExdetDetector,'ddd': DddDetector,'ctdet': CtdetDetector,'multi_pose': MultiPoseDetector,}
   detector = Detector(opt) # 'ctdet': CtdetDetector
 
   if opt.demo == 'webcam' or \
@@ -65,7 +63,3 @@ def demo(opt):
 if __name__ == '__main__':
     opt = opts().init()
     demo(opt)
-    #img = cv2.imread('../images/1.JPG')
-    #print(img.shape)
-    #img = cv2.resize(img,(504,672))
-    #cv2.imwrite('../images/1_re.JPG',img)
