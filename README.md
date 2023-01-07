@@ -11,7 +11,7 @@ Following the procedures below:
 2) The basic installation procedures of CenterNet, all about is here [CenterNet Installation Procedures](INSTALL.md) 
 3) Our work conducts experiments on PascalVOC and MS-COCO datasets, all relevant is here [Datasets Download](DATA.md).
 4)  Download the backbone  networks you want to evaluate from the [model zoo](MODEL_ZOO.md) and move them in `Root_File/models/`. 
-5) The installation procedures of CWA framework.
+5) The installation procedures of [CWA framework](CWA_Installation.md).
 
 
 # Run experiments
