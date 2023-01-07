@@ -27,4 +27,3 @@ paras['epsilon'] = 0.05
 If you want to reproducing other results of SCA, such as white-box attack, black-box attack and perceptibility, please set as following:
 
 paras['epsilon'] = 1.0
-Then, you can reproducing other results of SCA.
