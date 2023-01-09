@@ -19,17 +19,22 @@ Following the procedures below:
 To evaluate PascalVOC object detection
 ~~~
 > Clean outputs:
+If it is clean, which means from ".ctdet import CtdetDetector"
 > run:
 python test.py ctdet --exp_id pascal_dla_1x_clean --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
 ~~~
 ~~~
+
 > Adversarial outputs (DCA-G):
+switch into DCA-G, "from .ctdet_DCA import CtdetDetector"
 > run:
 python test_universal.py ctdet --exp_id pascal_dla_1x_dcag --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
 > Adversarial outputs (DCA-L):
+switcg into DCAL, "#from .ctdet_DCAL2 import CtdetDetector"
 > run:
 python test_universal.py ctdet --exp_id pascal_dla_1x_dcal --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
 > Adversarial outputs (DCA-S):
+switcg into DCAS, "#from .ctdet_DCAS import CtdetDetector"
 > run:
 python test_universal.py ctdet --exp_id pascal_dla_1x_dcas --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
 ~~~
@@ -41,8 +46,6 @@ python test_universal.py ctdet --exp_id pascal_dla_1x_dcas --dataset pascal --ar
 > run:
 python test.py multi_pose --exp_id coco_resdcn18_clean --dataset coco_hp --arch dla_34 --not_prefetch_test --load_model ../models/multi_pose_dla_1x.pth
 ~~~
-
-
 ~~~
 > Adversarial outputs (DCA-G):
 > run:
