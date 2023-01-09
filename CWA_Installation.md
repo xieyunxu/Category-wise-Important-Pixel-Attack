@@ -4,7 +4,7 @@ At first, you need to install the CenterNet and run successfully on MS-COCO and 
 Objects as Points,
 Xingyi Zhou, Dequan Wang, Philipp Krähenbühl,
 https://github.com/xingyizhou/CenterNet
-# Install CA Family Attack
+# Install CWA Family Attack
 Open CenterNet-master/src/lib/detectors/detector_factory.py, and change the 
 from .ctdet import CtdetDetector
 into from .ctdet_DCA import CtdetDetector
