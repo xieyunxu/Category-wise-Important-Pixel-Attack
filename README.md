@@ -48,13 +48,12 @@ python test.py multi_pose --exp_id coco_resdcn18_clean --dataset coco_hp --arch 
 ~~~
 ~~~
 > Adversarial outputs (DCA-G):
+switch into DCA-G, "#from .multipose_DCA import MultiPoseDetector"
 > run:
 python test_universal.py multi_pose --exp_id coco_resdcn18_attack_dcag --dataset coco_hp --arch dla_34 --not_prefetch_test --load_model ../models/multi_pose_dla_1x.pth
 > Adversarial outputs (DCA-L):
+switcg into DCAL, "#from .multipose_DCAL import MultiPoseDetector"
 > run:
 python test_universal.py ctdet --exp_id pascal_dla_1x_dcal --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
-> Adversarial outputs (DCA-S):
-> run:
-python test_universal.py ctdet --exp_id pascal_dla_1x_dcas --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
 ~~~
 ![](fig2.png)
