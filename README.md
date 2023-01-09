@@ -25,13 +25,13 @@ python test.py ctdet --exp_id pascal_dla_1x_clean --dataset pascal --arch dla_34
 ~~~
 > Adversarial outputs (DCA-G):
 > run:
-python test_universal.py ctdet --exp_id pascal_dla_1x_Uniattack --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
+python test_universal.py ctdet --exp_id pascal_dla_1x_dcag --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
 > Adversarial outputs (DCA-L):
 > run:
-python test_universal.py ctdet --exp_id pascal_dla_1x_Uniattack --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
+python test_universal.py ctdet --exp_id pascal_dla_1x_dcal --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
 > Adversarial outputs (DCA-S):
 > run:
-python test_universal.py ctdet --exp_id pascal_dla_1x_Uniattack --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
+python test_universal.py ctdet --exp_id pascal_dla_1x_dcas --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
 ~~~
 ![](fig1.png)
 
@@ -46,12 +46,12 @@ python test.py multi_pose --exp_id coco_resdcn18_clean --dataset coco_hp --arch 
 ~~~
 > Adversarial outputs (DCA-G):
 > run:
-python test_universal.py multi_pose --exp_id coco_resdcn18_attack_uni --dataset coco_hp --arch dla_34 --not_prefetch_test --load_model ../models/multi_pose_dla_1x.pth
+python test_universal.py multi_pose --exp_id coco_resdcn18_attack_dcag --dataset coco_hp --arch dla_34 --not_prefetch_test --load_model ../models/multi_pose_dla_1x.pth
 > Adversarial outputs (DCA-L):
 > run:
-python test_universal.py ctdet --exp_id pascal_dla_1x_Uniattack --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
+python test_universal.py ctdet --exp_id pascal_dla_1x_dcal --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
 > Adversarial outputs (DCA-S):
 > run:
-python test_universal.py ctdet --exp_id pascal_dla_1x_Uniattack --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
+python test_universal.py ctdet --exp_id pascal_dla_1x_dcas --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
 ~~~
 ![](fig2.png)
