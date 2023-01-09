@@ -57,3 +57,4 @@ switcg into DCAL, "#from .multipose_DCAL import MultiPoseDetector"
 python test_universal.py ctdet --exp_id pascal_dla_1x_dcal --dataset pascal --arch dla_34 --not_prefetch_test --load_model ../models/ctdet_pascal_dla_512.pth
 ~~~
 ![](fig2.png)
+More details can be found in the publication.
